@@ -1,4 +1,7 @@
 # Unity-specific .gitignore
 # Ignore Library and Temp directories
-/Library/
-/Temp/
+POD3_Game/Library/
+POD3_Game/Temp/
+POD3_Game/Library/AnnotationManager
+POD3_Game/Library/ArtifactDB
+POD3_Game/Library/ArtifactDB-lock
