@@ -1,0 +1,4 @@
+# Unity-specific .gitignore
+# Ignore Library and Temp directories
+/Library/
+/Temp/
