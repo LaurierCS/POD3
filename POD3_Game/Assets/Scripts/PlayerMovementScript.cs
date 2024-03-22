@@ -1,49 +1,59 @@
 using UnityEngine;
 
-public class PlayerMovementScript : MonoBehaviour
+public class PlayerMovement2D : MonoBehaviour
 {
-    [SerializeField] private float speed;
-    private Rigidbody2D body;
-    private Animator anim;
-    private bool grounded;
+    public GameObject bulletPrefab;
+    public float movSpeed;
+    public Rigidbody2D rb;
+    private Vector2 moveDirection;
+    private SpriteRenderer spriteRenderer;
 
-    private void Awake()
+    void Start()
     {
-        //Grab references for rigibody and animator from object
-        body = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void Update()
+    void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
+        ProcessInputs();
+        FlipCharacter();
+        Rotation();
 
-        //Flip player when facing left/right.
-        if (horizontalInput > 0.01f)
-            transform.localScale = Vector3.one;
-        else if (horizontalInput < -0.01f)
-            transform.localScale = new Vector3(-1, 1, 1);
-
-        if (Input.GetKey(KeyCode.Space) && grounded)
-            Jump();
-
-
-        //sets animation parameters
-        anim.SetBool("run", horizontalInput != 0);
-        anim.SetBool("grounded", grounded);
+        if (Input.GetMouseButtonDown(0))
+            Shoot();
     }
 
-    private void Jump()
+    void FixedUpdate()
     {
-        body.velocity = new Vector2(body.velocity.x, speed);
-        anim.SetTrigger("jump");
-        grounded = false;
+        Movement();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void ProcessInputs()
     {
-        if (collision.gameObject.tag == "Ground")
-            grounded = true;
+        float moveX = Input.GetAxis("Horizontal");
+        float moveY = Input.GetAxis("Vertical");
+        moveDirection = new Vector2(moveX, moveY).normalized;
+    }
+
+    void Movement()
+    {
+        rb.velocity = new Vector2(moveDirection.x * movSpeed, moveDirection.y * movSpeed);
+    }
+
+    void FlipCharacter()
+    {
+        spriteRenderer.flipX = moveDirection.x < 0;
+    }
+
+    void Rotation()
+    {
+        Vector2 dir = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
+
+    void Shoot()
+    {
+        Instantiate(bulletPrefab, transform.position, Quaternion.identity);
     }
 }
