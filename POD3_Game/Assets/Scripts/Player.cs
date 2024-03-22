@@ -1,12 +1,13 @@
 using UnityEngine;
 
-public class PlayerMovement2D : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public float movSpeed;
     public Rigidbody2D rb;
     private Vector2 moveDirection;
     private SpriteRenderer spriteRenderer;
+    public Weapon currentWeapon;
 
     void Start()
     {
