@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aravk\\OneDrive\\Documents\\GitHub\\POD3\\POD3_Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A9C2F14-3360-0B33-A9F6-40969182A8C3}|Assembly-CSharp.csproj|C:\\Users\\aravk\\OneDrive\\Documents\\GitHub\\POD3\\POD3_Game\\assets\\questionsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A9C2F14-3360-0B33-A9F6-40969182A8C3}|Assembly-CSharp.csproj|solutionrelative:assets\\questionsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A9C2F14-3360-0B33-A9F6-40969182A8C3}|Assembly-CSharp.csproj|c:\\users\\aravk\\onedrive\\documents\\github\\pod3\\pod3_game\\assets\\qtsdata1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A9C2F14-3360-0B33-A9F6-40969182A8C3}|Assembly-CSharp.csproj|solutionrelative:assets\\qtsdata1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Qtsdata1.cs",
+              "DocumentMoniker": "C:\\Users\\aravk\\OneDrive\\Documents\\GitHub\\POD3\\POD3_Game\\Assets\\Qtsdata1.cs",
+              "RelativeDocumentMoniker": "Assets\\Qtsdata1.cs",
+              "ToolTip": "C:\\Users\\aravk\\OneDrive\\Documents\\GitHub\\POD3\\POD3_Game\\Assets\\Qtsdata1.cs",
+              "RelativeToolTip": "Assets\\Qtsdata1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T21:03:09.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuestionsManager.cs",
+              "DocumentMoniker": "C:\\Users\\aravk\\OneDrive\\Documents\\GitHub\\POD3\\POD3_Game\\Assets\\QuestionsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\QuestionsManager.cs",
+              "ToolTip": "C:\\Users\\aravk\\OneDrive\\Documents\\GitHub\\POD3\\POD3_Game\\Assets\\QuestionsManager.cs",
+              "RelativeToolTip": "Assets\\QuestionsManager.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAowFQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T20:19:12.601Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
