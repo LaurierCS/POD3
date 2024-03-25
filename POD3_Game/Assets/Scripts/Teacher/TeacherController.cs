@@ -13,6 +13,7 @@ public class TeacherController : MonoBehaviour
     }
 
     private void Update() {
+        // Visual alert for player in range of teacher
         if (playerInRange) {
             visualAlert.SetActive(true);
         } else {

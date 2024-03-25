@@ -7,6 +7,8 @@ TagManager:
   - Wall
   - Teacher
   - Enemy
+  - EnemyBullet
+  - Spawner
   layers:
   - Default
   - TransparentFX
