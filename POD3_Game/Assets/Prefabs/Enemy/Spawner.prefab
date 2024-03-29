@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1889755114811370316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3212402995321206402}
+  - component: {fileID: 5150575818529588099}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Spawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3212402995321206402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889755114811370316}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5150575818529588099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889755114811370316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 038b22d122354bd4d910b1a0b7e178a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  enemyFly: {fileID: 1464029281189501262, guid: 934104c23d4b8994a992cd2fb3e2d722, type: 3}
+  enemyFlySpawnRate: 0
+  nextEnemyFlySpawnTime: 0
+  enemyFlySpawnDistance: 0
+  enemyWorm: {fileID: 6655843280090367347, guid: 089e211f7f8b5934bab9366fb5115b9b, type: 3}
+  enemyWormSpawnRate: 0
+  nextEnemyWormSpawnTime: 0
+  enemyWormSpawnDistance: 0
+  enemyMantis: {fileID: 2567927798843786109, guid: dce2c12bb3b923643bfa17d190f3a28b, type: 3}
+  enemyMantisSpawnRate: 0
+  nextEnemyMantisSpawnTime: 0
+  enemyMantisSpawnDistance: 0
