@@ -8,7 +8,7 @@ public class AnswerScript : MonoBehaviour
     public QuizManager quizManager;
     public void Answer()
     {
-        if(isCorrect)
+        if (isCorrect)
         {
             Debug.Log("Correct Answer");
             quizManager.correct();
@@ -16,7 +16,10 @@ public class AnswerScript : MonoBehaviour
         else
         {
             Debug.Log("Wrong Answer");
-            quizManager.correct();  
+            quizManager.wrong();
         }
     }
+
 }
+
+
