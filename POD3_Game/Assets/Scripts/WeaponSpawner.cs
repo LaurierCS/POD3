@@ -47,4 +47,3 @@ public class WeaponSpawner : MonoBehaviour
         return new Vector3(randomX, randomY, 0f);
     }
 }
-

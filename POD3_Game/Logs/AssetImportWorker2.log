@@ -22,7 +22,11 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
+<<<<<<< Updated upstream
 63579
+=======
+54896
+>>>>>>> Stashed changes
 Successfully changed project path to: /Users/samriddhimakasare/Documents/GitHub/POD3/POD3_Game
 /Users/samriddhimakasare/Documents/GitHub/POD3/POD3_Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +60,21 @@ Successfully changed project path to: /Users/samriddhimakasare/Documents/GitHub/
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [8084508672] Host "[IP] 10.0.0.91 [Port] 0 [Flags] 2 [Guid] 2780366405 [EditorId] 2780366405 [Version] 1048832 [Id] OSXEditor(0,samriddhis-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [8084508672] Host "[IP] 10.0.0.91 [Port] 0 [Flags] 2 [Guid] 2780366405 [EditorId] 2780366405 [Version] 1048832 [Id] OSXEditor(0,samriddhis-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 15.10 ms, found 3 plugins.
+=======
+Player connection [8084508672] Host "[IP] 10.0.0.91 [Port] 0 [Flags] 2 [Guid] 3249840960 [EditorId] 3249840960 [Version] 1048832 [Id] OSXEditor(0,samriddhis-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8084508672] Host "[IP] 10.0.0.91 [Port] 0 [Flags] 2 [Guid] 3249840960 [EditorId] 3249840960 [Version] 1048832 [Id] OSXEditor(0,samriddhis-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 17.52 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,11 +89,16 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56463
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.002761 seconds.
 - Loaded All Assemblies, in  0.241 seconds
 Native extension for OSXStandalone target not found
@@ -89,11 +107,22 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.154 seconds
 Domain Reload Profiling: 395ms
 	BeginReloadAssembly (81ms)
+=======
+Registered in 0.002698 seconds.
+- Loaded All Assemblies, in  0.227 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.143 seconds
+Domain Reload Profiling: 369ms
+	BeginReloadAssembly (79ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (30ms)
@@ -116,6 +145,30 @@ Domain Reload Profiling: 395ms
 			BeforeProcessingInitializeOnLoad (1ms)
 			ProcessInitializeOnLoadAttributes (80ms)
 			ProcessInitializeOnLoadMethodAttributes (26ms)
+=======
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (90ms)
+		LoadAssemblies (79ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (78ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (143ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (109ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (74ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +176,13 @@ Domain Reload Profiling: 395ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.400 seconds
 Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  0.372 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,13 +190,20 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.403 seconds
 Domain Reload Profiling: 803ms
 	BeginReloadAssembly (76ms)
+=======
+- Finished resetting the current domain, in  0.382 seconds
+Domain Reload Profiling: 754ms
+	BeginReloadAssembly (67ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (18ms)
 	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
@@ -162,11 +227,37 @@ Domain Reload Profiling: 803ms
 			BeforeProcessingInitializeOnLoad (53ms)
 			ProcessInitializeOnLoadAttributes (222ms)
 			ProcessInitializeOnLoadMethodAttributes (19ms)
+=======
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (382ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (288ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (215ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
+<<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
 Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -174,6 +265,15 @@ Unloading 4089 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 64 unused Assets / (55.4 KB). Loaded Objects now: 4551.
 Memory consumption went from 158.1 MB to 158.0 MB.
 Total: 2.683542 ms (FindLiveObjects: 0.137625 ms CreateObjectMapping: 0.066083 ms MarkObjects: 2.209875 ms  DeleteObjects: 0.269458 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (55.7 KB). Loaded Objects now: 4552.
+Memory consumption went from 158.1 MB to 158.0 MB.
+Total: 2.720292 ms (FindLiveObjects: 0.118875 ms CreateObjectMapping: 0.058208 ms MarkObjects: 2.231291 ms  DeleteObjects: 0.311333 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,20 +284,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+<<<<<<< Updated upstream
+=======
+  custom:scripting/monoscript/fileName/WeaponSwapner.cs: 4d40245c4cf667a71fade931c98e5464 -> 
+>>>>>>> Stashed changes
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 81670.495059 seconds.
   path: Assets/Prefabs/Player
   artifactKey: Guid(4593f5fdc30b943eb9b6d3937b0a0edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Player using Guid(4593f5fdc30b943eb9b6d3937b0a0edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca3cb3b4dee8dc33fb325ad3db4718b') in 0.033930 seconds
+=======
+  Time since last request: 40779.002580 seconds.
+  path: Assets/Prefabs/Weapons
+  artifactKey: Guid(e3d10a7bd4a4949f5815182a84c0c0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons using Guid(e3d10a7bd4a4949f5815182a84c0c0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c94e094ae8fe3cce36bf15a19a33178') in 0.013531 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 5.692772 seconds.
   path: Assets/Prefabs/Enemy
   artifactKey: Guid(bf69c82ec7877c5408f4658931d421cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -250,10 +362,17 @@ Received Import Request.
   path: Assets/Prefabs/Player/glock-18.prefab
   artifactKey: Guid(94e3e09e0bfb64ed08bbe02df90c59d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Player/glock-18.prefab using Guid(94e3e09e0bfb64ed08bbe02df90c59d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4d71f1e51e4673275d89150e133259') in 0.005993 seconds
+=======
+  Time since last request: 4.294882 seconds.
+  path: Assets/Prefabs/Weapons/glock-18.prefab
+  artifactKey: Guid(79c54434d87fd406883d98ec755084ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/glock-18.prefab using Guid(79c54434d87fd406883d98ec755084ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070d68cdd315a0017414e0cefe7f59dc') in 0.130309 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 40.807040 seconds.
   path: Assets/Scripts
   artifactKey: Guid(b8993f092d8784982a8462e9d4ff58d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -274,27 +393,54 @@ Received Import Request.
   path: Assets/Scripts/Player.cs
   artifactKey: Guid(5f82d253f171d41b6b1fda4db52785a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Player.cs using Guid(5f82d253f171d41b6b1fda4db52785a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc3464d70bab03d94beff1aa6406bf2') in 0.000377 seconds
+=======
+  Time since last request: 3.091273 seconds.
+  path: Assets/Prefabs/Weapons/ak-47_unloaded.prefab
+  artifactKey: Guid(a1599ff6bdf2b43cb88e79a49ea85f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/ak-47_unloaded.prefab using Guid(a1599ff6bdf2b43cb88e79a49ea85f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a430f06f9096443844326ec7c4b717bc') in 0.006159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 28.341963 seconds.
+  path: Assets/Scripts/WeaponSwapCommand.cs
+  artifactKey: Guid(44e0dc9f98f6f46c8bb87ae90ebdde16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WeaponSwapCommand.cs using Guid(44e0dc9f98f6f46c8bb87ae90ebdde16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3444c38d83c87a23350f4cd2700247c1') in 0.001543 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 Thread 0x296387000 may have been prematurely finalized
 - Loaded All Assemblies, in  0.589 seconds
 Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+=======
+Thread 0x177b27000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.328 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.893 seconds
 Domain Reload Profiling: 1483ms
 	BeginReloadAssembly (143ms)
+=======
+- Finished resetting the current domain, in  0.802 seconds
+Domain Reload Profiling: 1130ms
+	BeginReloadAssembly (99ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (57ms)
 	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
@@ -477,23 +623,56 @@ Domain Reload Profiling: 1179ms
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (298ms)
+=======
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (802ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (290ms)
+>>>>>>> Stashed changes
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
+<<<<<<< Updated upstream
 			BeforeProcessingInitializeOnLoad (56ms)
 			ProcessInitializeOnLoadAttributes (215ms)
 			ProcessInitializeOnLoadMethodAttributes (19ms)
+=======
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 36 unused Assets / (35.5 KB). Loaded Objects now: 4573.
 Memory consumption went from 184.4 MB to 184.4 MB.
 Total: 5.107000 ms (FindLiveObjects: 0.221875 ms CreateObjectMapping: 0.086709 ms MarkObjects: 4.521333 ms  DeleteObjects: 0.274167 ms)
+=======
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4565.
+Memory consumption went from 164.3 MB to 164.3 MB.
+Total: 2.660125 ms (FindLiveObjects: 0.147000 ms CreateObjectMapping: 0.077959 ms MarkObjects: 2.376000 ms  DeleteObjects: 0.058750 ms)
+>>>>>>> Stashed changes
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -505,12 +684,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+<<<<<<< Updated upstream
+=======
+  custom:scripting/monoscript/fileName/WeaponSwapner.cs: 4d40245c4cf667a71fade931c98e5464 -> 
+>>>>>>> Stashed changes
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 33.718384 seconds.
   path: Assets/Scenes/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-left side/1-removebg-preview.png
   artifactKey: Guid(9833b7082df224224a71d49158284f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -553,3 +737,19 @@ Editor requested this worker to shutdown with reason: Scaling down because of id
 TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
 AssetImportWorker is now disconnected from the server
 Process exiting
+=======
+  Time since last request: 116.705809 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(e769ea558d7564d08bc05ab75c537360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(e769ea558d7564d08bc05ab75c537360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2120856d2446a9218df50c88b990c04') in 0.008108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 62.140023 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(e769ea558d7564d08bc05ab75c537360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(e769ea558d7564d08bc05ab75c537360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74f235e36bf3cdb20c17e9df908be3e') in 0.005977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+>>>>>>> Stashed changes
