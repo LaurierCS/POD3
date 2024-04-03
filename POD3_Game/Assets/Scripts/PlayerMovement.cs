@@ -68,7 +68,11 @@ public class PlayerMovement : MonoBehaviour
 
         // Increment bullets fired count
         bulletsFired++;
+
+        // Destroy the bullet after 5 seconds
+        Destroy(bullet, 5f);
     }
+
 
     // Function to set objectPickedUp flag and reset bulletsFired count
     public void SetObjectPickedUp(bool pickedUp)
@@ -77,3 +81,4 @@ public class PlayerMovement : MonoBehaviour
         bulletsFired = 0; // Reset bulletsFired count
     }
 }
+
