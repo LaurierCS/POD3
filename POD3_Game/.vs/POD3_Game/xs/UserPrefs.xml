@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{5A9C2F14-3360-0B33-A9F6-40969182A8C3}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WeaponSwapCommand.cs">
     <Files>
-      <File FileName="Assets/PlayerMovement.cs" Line="35" Column="2" />
-      <File FileName="Assets/Scripts/WeaponSwapCommand.cs" Line="43" Column="45" />
+      <File FileName="Assets/Scripts/WeaponSwapCommand.cs" Line="24" Column="1" />
+      <File FileName="Assets/Scripts/WeaponSpawner.cs" Line="13" Column="29" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="97" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="56556aca-17e7-4613-961b-55e2b9447709" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3da92f55-88ff-4024-985d-bbfb2f718198" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
