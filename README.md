@@ -8,22 +8,22 @@
 ██║     ╚██████╔╝██████╔╝██████╔╝
 ╚═╝      ╚═════╝ ╚═════╝ ╚═════╝
 
- Daveey B’s 
+⭐ ⭐ Daveey B’s Game - Escape Laurier ⭐ ⭐ 
 ```
 
 </div>
 
 
 
-## Development: UNITY 
+## Development: Unity
 
-## Description:
-Eclipse Encounter is an action-packed, educational game designed to test your reflexes, knowledge, and strategic thinking. Set in the immersive environment of an eclipse, you must navigate through levels filled with enemies and challenges while answering questions to progress. Developed using Unity, Eclipse Encounter offers a unique blend of shooting mechanics, trivia quizzes, and immersive gameplay.
+## Description 💻 :
+Eclipse Encounter is an action-packed, educational game designed to test your reflexes, knowledge, and strategic thinking. Set in the immersive environment of an eclipse, you must navigate through levels filled with enemies and challenges while answering questions to progress. Developed using Unity,  Daveey B’s  offers a unique blend of shooting mechanics, trivia quizzes, and immersive gameplay.
   
-## Core Gameplay:
+## Core Gameplay 🎮 :
 As the player, you face waves of enemies approaching you while armed with weapons to defend yourself. Your goal is to shoot down enemies while staying alive. Killing a certain number of enemies creates a checkpoint, and each enemy defeated adds to your timer. However, getting hit by enemies reduces your time. The game features levels that progressively introduce new mechanics, weapons, and enemy types.
 
-## Features:
+## Features ⭐ :
 - Engaging shooting mechanics where enemies are represented by code keywords and random people asking you questions.
 - Checkpoints that serve as milestones, offering hints to help you progress.
 - Educational elements integrated into the gameplay, such as quizzes at the end of each level, presented by "Davey B."
@@ -35,13 +35,12 @@ As the player, you face waves of enemies approaching you while armed with weapon
 Level Progression: Navigate through levels filled with enemies, learning how to use weapons effectively and understanding enemy behaviors.
 Quiz Challenges: Reach the end of each level to face Davey B's quiz challenges. Answer all questions correctly to proceed to the next level.
 Boss Encounter: After completing the initial levels, face off against challenging bosses that put your skills to the ultimate test.
-Controls:
 
-## Movement:
-- W, A, S, D or Arrow keys
-- Aim: F key
-- Shoot: Left Mouse Button
-- Interact/Answer: E key
+ ## Controls:
+- Movement: - W, A, S, D or Arrow keys
+- Pick up Weapons: E key
+- Shoot: F key 
+- Interact/Answer: Click 
 
 ## Setting Up:
 - Clone the repository from GitHub.
@@ -57,6 +56,6 @@ Contributions to Eclipse Encounter are welcome! Whether it's fixing bugs, adding
 - Unity Technologies for the Unity game engine
 
 ## Feedback:
-We welcome any feedback or suggestions for Eclipse Encounter. Feel free to create an issue on GitHub or contact us directly with your thoughts and ideas.
+We welcome any feedback or suggestions for Daveey B’s . Feel free to create an issue on GitHub or contact us directly with your thoughts and ideas.
 
-## Enjoy your Eclipse Encounter experience! make it look good for 
+## Enjoy  Daveey B’s  Experience ! ⭐ ⭐ ⭐
