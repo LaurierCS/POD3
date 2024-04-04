@@ -33,7 +33,7 @@ public class FlyBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         // Call timer decrease function
-        if (other.gameObject.CompareTag("Player")) {
+        if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("PlayerBullet")) {
             Debug.Log($"Player lost {timeDecreaseOnHit} seconds.");
             Destroy(this.gameObject);
         }
