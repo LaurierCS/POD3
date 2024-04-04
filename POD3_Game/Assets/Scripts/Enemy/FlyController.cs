@@ -8,6 +8,7 @@ public class FlyController : MonoBehaviour
     public float movesped;
     public float attackRange;
     public float attackSpeed;
+    public Timer timer;
 
     public float timeIncreaseOnDeath;
 
@@ -52,7 +53,7 @@ public class FlyController : MonoBehaviour
     }
 
     // Kill on collision with bullet
-    private void OnCollisionEnter2D(Collision2D other) {
+    private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.CompareTag("PlayerBullet")) {
             StartCoroutine(OnDeath());
         }

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pngtree-door-clipart-png-image_6535097_0: 3385161511395527467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

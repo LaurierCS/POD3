@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      laurier-crest-rev-removebg-preview_0: 330107986199306352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
