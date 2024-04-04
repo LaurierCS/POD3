@@ -59,4 +59,4 @@ Contributions to Eclipse Encounter are welcome! Whether it's fixing bugs, adding
 ## Feedback:
 We welcome any feedback or suggestions for Eclipse Encounter. Feel free to create an issue on GitHub or contact us directly with your thoughts and ideas.
 
-## Enjoy your Eclipse Encounter experience! make it look good for 
+## Enjoy your Daveey B’s experience!
