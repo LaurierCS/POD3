@@ -26,10 +26,12 @@ public class FlyBullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other) {
         // Destroy bullet on collision
-        if (other.gameObject.CompareTag("Wall") || other.gameObject.CompareTag("Enemy")|| other.gameObject.CompareTag("EnemyBullet") || other.gameObject.CompareTag("Teacher")) {
+        if (other.gameObject.CompareTag("Enemy")|| other.gameObject.CompareTag("EnemyBullet")) {
             Destroy(this.gameObject);
         }
+    }
 
+    private void OnTriggerEnter2D(Collider2D other) {
         // Call timer decrease function
         if (other.gameObject.CompareTag("Player")) {
             Debug.Log($"Player lost {timeDecreaseOnHit} seconds.");
