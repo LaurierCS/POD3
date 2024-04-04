@@ -32,9 +32,9 @@ As the player, you face waves of enemies approaching you while armed with weapon
 - Unique setting within an eclipse, providing a visually stunning backdrop for the intense action.
 
 ## Game Flow:
-Level Progression: Navigate through levels filled with enemies, learning how to use weapons effectively and understanding enemy behaviors.
-Quiz Challenges: Reach the end of each level to face Davey B's quiz challenges. Answer all questions correctly to proceed to the next level.
-Boss Encounter: After completing the initial levels, face off against challenging bosses that put your skills to the ultimate test.
+- Level Progression: Navigate through levels filled with enemies, learning how to use weapons effectively and understanding enemy behaviors.
+- Quiz Challenges: Reach the end of each level to face Davey B's quiz challenges. Answer all questions correctly to proceed to the next level.
+- Boss Encounter: After completing the initial levels, face off against challenging bosses that put your skills to the ultimate test.
 
  ## Controls:
 - Movement: - W, A, S, D or Arrow keys
@@ -52,7 +52,7 @@ Boss Encounter: After completing the initial levels, face off against challengin
 Contributions to Eclipse Encounter are welcome! Whether it's fixing bugs, adding new features, or improving existing content, feel free to fork the repository, make your changes, and submit a pull request.
 
 ## Credits:
-- Developed by Samriddhi, Arav, Micheal, Mina 
+- Developed by Samriddhi, Arav, Micheal, Mina, John
 - Unity Technologies for the Unity game engine
 
 ## Feedback:
