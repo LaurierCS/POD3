@@ -9,6 +9,10 @@ TagManager:
   - EnemyBullet
   - Spawner
   - ' PlayerBullet'
+  - player bullet
+  - Player Bullet
+  - Undefined
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
