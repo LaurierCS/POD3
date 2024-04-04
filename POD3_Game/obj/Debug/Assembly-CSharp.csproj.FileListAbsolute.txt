@@ -1,0 +1,6 @@
+/Users/mina/Documents/GitHub/POD3/POD3_Game/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/mina/Documents/GitHub/POD3/POD3_Game/Temp/bin/Debug/Assembly-CSharp.pdb
+/Users/mina/Documents/GitHub/POD3/POD3_Game/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache
+/Users/mina/Documents/GitHub/POD3/POD3_Game/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
+/Users/mina/Documents/GitHub/POD3/POD3_Game/obj/Debug/Assembly-CSharp.dll
+/Users/mina/Documents/GitHub/POD3/POD3_Game/obj/Debug/Assembly-CSharp.pdb

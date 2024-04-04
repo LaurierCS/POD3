@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{5A9C2F14-3360-0B33-A9F6-40969182A8C3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Timer.cs">
+    <Files>
+      <File FileName="Assets/Timer.cs" Line="44" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="POD3_Game" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="23441193-0812-44a2-b9d0-f61600173418" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
